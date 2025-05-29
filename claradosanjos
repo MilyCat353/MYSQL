@@ -1,0 +1,44 @@
+/* TÍTULO: Clara dos Anjos
+RESUMO: Clara, uma jovem mulata do subúrbio carioca, é seduzida por Cassi Jones, um malandro branco, e enfrenta as consequências do preconceito racial e social da época.
+AUTOR: Lima Barreto
+AUTO_PUBLICACAO: 1923
+GENERO: Romance de denúncia social
+TEMAS: Preconceito racial, desigualdade social, hipocrisia burguesa, exploração da mulher
+NUMERO_DE_PAGINAS: 152
+SINOPSE: Clara dos Anjos, filha de um carteiro, vive no subúrbio do Rio de Janeiro. Ingênua e sonhadora, ela se apaixona por Cassi Jones, um malandro que a seduz e abandona. A narrativa expõe as injustiças sociais e o racismo presentes na sociedade brasileira do início do século XX.
+IMPACTO_CULTURAL: Obra significativa do pré-modernismo brasileiro, destacando-se por sua crítica social e racial, e por dar voz às classes marginalizadas.
+IDIOMA: Português
+CLASSIFICACAO: 14 anos
+EDITORA: Paulus Editora
+PERSONAGENS_PRINCIPAIS: Clara dos Anjos, Cassi Jones, Joaquim dos Anjos, Engrácia dos Anjos
+PREMIOS: 0
+PUBLICO_ALVO: Juvenil e adulto
+PAIS_ORIGEM: Brasil
+PRECO: 22.00
+CUSTO_PRODUCAO: 10.00
+*/
+INSERT INTO OBRAS_LITERARIAS (
+  TITULO, RESUMO, AUTOR, AUTO_PUBLICACAO, GENERO, TEMAS,
+  NUMERO_DE_PAGINAS, SINOPSE, IMPACTO_CULTURAL, IDIOMA,
+  CLASSIFICACAO, EDITORA, PERSONAGENS_PRINCIPAIS, PREMIOS,
+  PUBLICO_ALVO, PAIS_ORIGEM, PRECO, CUSTO_PRODUCAO
+) VALUES (
+  'Clara dos Anjos',
+  'Clara, uma jovem mulata do subúrdio carioca, é seduzida por um malandro branco e enfrenta as consequencias do preconceito racial e social da época.',
+  'Lima Barreto',
+  1923,
+  'Romance de denúncia social',
+  'Preconceiro racial, desigualdade social, hipocresia burguesa e exploração da mulher',
+  152,
+  'Clara dos Anjos, filha de um carteiro, vive no subúrbio do Rio de Janeiro. Ingênua e sonhadora, ela se apaixona por Cassi Jones, um malandro que a seduz e abandona. A narrativa expõe as injustiças sociais e o racismo presentes na sociedade brasileira do início do século XX.',
+  'Obra significativa do pré-modernismo brasileiro, destacando-se por sua crítica social e racial, e por dar voz às classes marginalizadas.',
+  'Português',
+  '14 anos',
+  'Paulus Editora',
+  'Clara dos Anjos, Cassi Jones, Joaquim dos Anjos e Engrácia dos Anjos',
+  0,
+  'Juvenil e adulto',
+  'Brasil',
+  22.90,
+  10.00
+);
