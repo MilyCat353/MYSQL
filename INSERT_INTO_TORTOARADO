@@ -9,28 +9,25 @@ Impacto cultural: Obra premiada que destacou a literatura brasileira contemporâ
 Idioma: Português
 Classificação indicativa: 16 anos
 Editora: Todavia */
-INSERT INTO OBRAS_LITERARIAS (
-  TITULO, RESUMO, AUTOR, AUTO_PUBLICACAO, GENERO, TEMAS,
-  NUMERO_DE_PAGINAS, SINOPSE, IMPACTO_CULTURAL, IDIOMA,
-  CLASSIFICACAO, EDITORA, PERSONAGENS_PRINCIPAIS, PREMIOS,
-  PUBLICO_ALVO, PAIS_ORIGEM, PRECO, CUSTO_PRODUCAO
-) VALUES (
-  'Torto Arado',
-  'Duas irmãs descobrem um segredo escondido na fazenda onde vivem, desencadeando uma história de ancestralidade, luta e resistência no sertão da Bahia.',
-  'Itamar Vieira Junior',
-  2019,
-  'Romance',
-  'Escravidão, ancestralidade, religiosidade, luta por terras, injustiça social',
-  264,
-  'Após encontrarem uma antiga faca guardada sob a cama da avó, as irmãs Bibiana e Belonísia enfrentam uma tragédia que muda suas vidas. O livro acompanha suas jornadas pessoais e coletivas no sertão baiano, atravessando temas como misticismo e a dura realidade de comunidades rurais marcadas pela desigualdade.',
-  'Obra premiada que destacou a literatura brasileira contemporânea e trouxe visibilidade às questões sociais e culturais do Brasil profundo.',
-  'Português',
-  '16 anos',
-  'Todavia',
-  'Bibiana, Belonísia',
-  3,
-  'Adulto',
-  'Brasil',
-  49.90,
-  20.00
-);
+(
+    3,
+    'Torto Arado',
+    'Itamar Vieira Junior',
+    2019,
+    'Romance',
+    'Escravidão, ancestralidade, religiosidade, luta por terras, injustiça social',
+    'Pós-abolição no sertão da Bahia, em comunidades quilombolas e rurais',
+    'Bibiana, Belonísia',
+    'Após encontrarem uma antiga faca guardada sob a cama da avó, as irmãs Bibiana e Belonísia enfrentam uma tragédia que muda suas vidas. O livro acompanha suas jornadas pessoais e coletivas no sertão baiano, atravessando temas como misticismo e a dura realidade de comunidades rurais marcadas pela desigualdade.',
+    'Obra premiada que destacou a literatura brasileira contemporânea e deu visibilidade às questões sociais e culturais das populações marginalizadas do Brasil profundo.',
+    '16 anos',
+    'A narrativa gira em torno da vida de duas irmãs que, após um acidente com uma faca, têm seus destinos selados em um ambiente de extrema desigualdade e religiosidade. A história se desenvolve no sertão da Bahia, entrelaçando elementos místicos, históricos e sociais.',
+    264,
+    'Prêmio Jabuti, Prêmio Oceanos, LeYa',
+    'Adulto',
+    'Brasil',
+    'Português',
+    49.90,
+    20.00,
+    'Todavia'
+),
